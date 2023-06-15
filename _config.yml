@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: PanAf20K
 description: A Large Video Dataset for Wild Ape Detection & Behaviour Analysis
+show_downloads: true
