@@ -1,23 +1,41 @@
----
-layout: default
-permalink: /
-title: ""
----
-
 ![](assets/media/images/dataset_overview.jpg)
 
 ---
 
 ### **Overview**
 
-_We present a novel in-situ dataset for animal behavior recognition from drone videos. The dataset, curated from videos taken of Kenyan wildlife, currently contains behaviors of giraffes, plains zebras, and Grevy's zebras, and will soon be expanded to other species, including baboons. The videos were collected by flying drones over animals at the Mpala Research Centre in Kenya in January 2023. The dataset consists of more than 10 hours of extracted videos, each centered on a particular animal and annotated with seven types of behaviors along with an additional category for occluded views. Ten non-experts contributed annotations, overseen by an expert in animal behavior who develop a standardized set of criteria to ensure consistency and accuracy across the annotations.  The drone videos were taken using the permission of Research License No. NACOSTI/P/22/18214, following a protocol that strictly adheres to guidelines set forth by the Institutional Animal Care and Use Committee under permission No. IACUC 1835F. This dataset will be a valuable resource for experts in both machine learning and animal behavior:_
+We present the PanAf20K dataset, the largest and most diverse open-access annotated video dataset of great apes in their natural environment. It comprises more than 7 million frames across 20,000 camera trap videos of chimpanzees and gorillas collected at 18 field sites in tropical Africa as part of the Pan African Programme: The Cultured Chimpanzee. The footage is accompanied by a rich set of annotations and benchmarks making it suitable for training and testing a variety of challenging and ecologically important tasks including detection, species classification, fine-grained and multi-label action recognition. Furthering AI analysis of camera trap information is critical given the International Union for Conservation of Nature now lists all species in the great ape family as either Endangered or Critically Endangered. We hope the dataset can form a solid basis for engagement of the AI community to improve performance, efficiency and result interpretation in order to support assessments of great ape presence, abundance, distribution, and behaviour and thereby aid conservation efforts.
 
-- _It provides a challenging data for the development of new machine learning algorithms for animal behavior recognition. It complements recently released, larger [datasets](https://arxiv.org/abs/2204.08129) that used videos scraped from online sources because it was gathered in-situ and therefore is more representative of how behavior recognition algorithms may be used in practice._
+The PanAf20K dataset consists of two distinct parts. The first includes a large video dataset containing approximately 20,000 videos annotated with multi-label behavioural labels. The second part comprises 500 videos with 180k+ fine-grained annotations.
 
-- _It demonstrates the effectiveness of a new animal behavior curation pipeline for videos collected in-situ using drones._
+![](assets/media/images/dataset_overview.jpg)
 
-- _It provides a test set for evaluating the impact of a change in field work protocols by research scientists studying animal behavior to the use of drones and recorded videos._ 
+#### **Part 1: PanAf20K**
 
-_We provide a detailed description of the dataset and its annotation process, along with some initial experiments on the dataset using conventional deep learning models. The results demonstrate the effectiveness of the dataset for animal behavior recognition and highlight the potential for further research in this area._
+Multi-label Behavioural Annotation of PanAf-20K. Citizens scientists on the Chimp&See platform provided multi-label behavioural annotations for 20,000 videos. During annotation, particular focus was given to ecologically and anthropologically important behaviours such as tool use, camera reaction and bipedalism. To ensure annotation quality and consistency a video was only deemed to be analyzed when either three volunteers marked the video as blank, seven volunteers unanimously agreed on the behaviour of the animal present, or 15 volunteers annotated the video. These annotations were then extracted and expertly grouped into 18 co-occurring classes comprising ~40 sub-classes, which form the multi-label behavioural annotations presented here.
+
+![](assets/media/images/dataset_overview.jpg)
+
+#### **Part2: PanAf500**
+
+The PanAf-500 was ground-truth labelled by users on the citizens science platform Chimp&See and researchers at the University of Bristol. We re-formatted the metadata from these sources specifically for use in computer vision under reproducible and comparable benchmarks ready for AI-use. The dataset includes frame-by-frame annotations for full-body location, intra-video individual identification, species classification, and nine behavioural actions across 500 videos and 180k+ frames. The behavioural action annotations cover 9 basic behavioural actions; sitting, standing, walking, running, climbing up, climbing down, hanging, sitting on back, camera interaction.
+
+![](assets/media/images/dataset_overview.jpg)
 
 ---
+
+### **Benchmarks**
+
+---
+
+### **Acknowledgments**
+
+We thank the Pan African Programme: ‘The Cultured Chimpanzee’ team and its collaborators for allowing the use of their data for this paper. We thank Amelie Pettrich, Antonio Buzharevski, Eva Martinez Garcia, Ivana Kirchmair, Sebastian Schütte, Linda Gerlach and Fabina Haas. We also thank management and support staff across all sites; specifically Yasmin Moebius, Geoffrey Muhanguzi, Martha Robbins, Henk Eshuis, Sergio Marrocoli and John Hart. Thanks to the team at https://www.chimpandsee.org particularly Briana Harder, Anja Landsmann, Laura K. Lynn, Zuzana Macháčková, Heidi Pfund, Kristeena Sigler and Jane Widness. The work that allowed for the collection of the dataset was funded by the Max Planck Society, Max Planck Society Innovation Fund, and Heinz L. Krekeler. In this respect we would like to thank: Ministre des Eaux et Forêts, Ministère de l'Enseignement supérieur et de la Recherche scientifique in Côte d’Ivoire; Institut Congolais pour la Conservation de la Nature, Ministère de la Recherche Scientifique in Democratic Republic of Congo; Forestry Development Authority in Liberia; Direction Des Eaux Et Forêts, Chasses Et Conservation Des Sols in Senegal; Makerere University Biological Field Station, Uganda National Council for Science and Technology, Uganda Wildlife Authority, National Forestry Authority in Uganda; National Institute for Forestry Development and Protected Area Management, Ministry of Agriculture and Forests, Ministry of Fisheries and Environment in Equatorial Guinea. This work was supported by the UKRI CDT in Interactive AI under grant EP/S022937/1.
+
+
+
+
+
+
+
+
