@@ -1,11 +1,7 @@
 theme: jekyll-theme-cayman
 title: "PanAf20K:  A Large Video Dataset for Wild Ape Detection & Behaviour Analysis"
-<<<<<<< HEAD
 description: |-
     Otto Brookes, Majid Mirmehdi, Colleen Stephens, Maureen McCarthy, Mizuki Murai, Emmanuelle Normand, Virginie Vergnes, Amelia Meier, Juan Lapuente Roman Wittig, Dervla Dowd, Sorrel Jones, Vera Leinert, Erin Wessling,  Katherine Corogenes,  Klaus Zuberbühler, Kevin Lee, Samuel Angedakin, Kevin Langergraber, Paula Dieguez, Nuria Maldonado, Christophe Boesch, Mimi Arandjelovic, Hjalmar Kühl, Tilo Burghardt
 
     University of Bristol, Max Planck Institute for Evolutionary Anthropology, Wild Chimpanzee Foundation, Harvard University, University of St Andrews, University of Warsaw, University of Lyon, Arizona State University
-=======
-description: "Otto Brookes, Majid Mirmehdi, Hjalmar Kühl, Mimi Arandjelovic, Colleen Stephens, Maureen McCarthy, Christophe Boesch, Mizuki Murai, Emmanuelle Normand, Virginie Vergnes, Amelia Meier, Juan Lapuente Roman Wittig, Dervla Dowd, Sorrel Jones, Vera Leinert, Erin Wessling,  Katherine Corogenes,  Klaus Zuberbühler, Kevin Lee, Samuel Angedakin, Kevin Langergraber, Paula Dieguez, Nuria Maldonado, Tilo Burghardt"
 show_downloads: true
->>>>>>> e8d5e3ca2bf01c7954f10a2788d1cf44f94758ce
