@@ -38,7 +38,7 @@ The PanAf-500 was ground-truth labelled by users on the citizens science platfor
  @article{brookes2023panaf20k,
   title={PanAf20K: A Large Video Dataset for Wild Ape Detection & Behaviour Analysis},
   author={Brookes, Otto and Mirmehdi, Majid and Stephens, Colleen and McCarthy, Maureen and Murai, Mizuki and Normand, Emmanuelle and Vergnes, Virginie and Meier, Amelia and Lapuente, Juan and Wittig, Roman and Dowd, Dervla and Jones, Sorrel and Leinert, Vera and Wessling, Erin and Corogenes, Katherine and  Zuberb{\"u}hler, Klaus and Lee, Kevin and  Angedakin, Samuel and  Langergraber, Kevin and Dieguez, Paula and Maldonado, Nuria and Boesch, Christophe and Arandjelovic, Mimi and K{\"u}hl, Hjalmar and Burghardt, Tilo},
-  booktitle={IEEE/CVF International Conference on Computer Vision Workshops, CV4Animals Workshop},
+  booktitle={IEEE/CVF Computer Vision and Pattern Recognition Conference Workshops, CV4Animals Workshop},
   year={2023}
 }
  ```
