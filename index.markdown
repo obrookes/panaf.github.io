@@ -18,7 +18,6 @@ The PanAf20K dataset consists of two distinct parts. The first includes a large 
 
 Multi-label Behavioural Annotation of PanAf-20K. Citizens scientists on the Chimp&See platform provided multi-label behavioural annotations for 20,000 videos. During annotation, particular focus was given to ecologically and anthropologically important behaviours such as tool use, camera reaction and bipedalism. To ensure annotation quality and consistency a video was only deemed to be analyzed when either three volunteers marked the video as blank, seven volunteers unanimously agreed on the behaviour of the animal present, or 15 volunteers annotated the video. These annotations were then extracted and expertly grouped into 18 co-occurring classes comprising ~40 sub-classes, which form the multi-label behavioural annotations presented here.
 
-![](assets/media/images/p20k_dist.jpg)
 
 #### **Part2: PanAf500**
 
