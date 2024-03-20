@@ -39,7 +39,6 @@ The PanAf-500 was ground-truth labelled by users on the citizens science platfor
  @misc{brookes2024panaf20kdataset,
   title={PanAf20K AI-enabled Video Dataset of Great Apes in the Wild},
   author={Brookes, Otto and Mirmehdi, Majid and Stephens, Colleen and McCarthy, Maureen and Murai, Mizuki and Normand, Emmanuelle and Vergnes, Virginie and Meier, Amelia and Lapuente, Juan and Wittig, Roman and Dowd, Dervla and Jones, Sorrel and Leinert, Vera and Wessling, Erin and Corogenes, Katherine and  Zuberb{\"u}hler, Klaus and Lee, Kevin and  Angedakin, Samuel and  Langergraber, Kevin and Dieguez, Paula and Maldonado, Nuria and Boesch, Christophe and Arandjelovic, Mimi and K{\"u}hl, Hjalmar and Burghardt, Tilo},
-  title={Editorial for Special Issue on Computer Vision Approaches for Animal Tracking and Modeling},
   year={2024},
   doi={10.5523/bris.1h73erszj3ckn2qjwm4sqmr2wt}
   url={https://doi.org/10.5523/bris.1h73erszj3ckn2qjwm4sqmr2wt}
