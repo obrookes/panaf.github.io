@@ -2,10 +2,6 @@
 
 ---
 
-# **Dataset download coming soon!**
-
----
-
 ### **Overview**
 
 We present the PanAf20K dataset, the largest and most diverse open-access annotated video dataset of great apes in their natural environment. It comprises more than 7 million frames across 20,000 camera trap videos of chimpanzees and gorillas collected at 18 field sites in tropical Africa as part of the Pan African Programme: The Cultured Chimpanzee. The footage is accompanied by a rich set of annotations and benchmarks making it suitable for training and testing a variety of challenging and ecologically important tasks including detection, species classification, fine-grained and multi-label action recognition. Furthering AI analysis of camera trap information is critical given the International Union for Conservation of Nature now lists all species in the great ape family as either Endangered or Critically Endangered. We hope the dataset can form a solid basis for engagement of the AI community to improve performance, efficiency and result interpretation in order to support assessments of great ape presence, abundance, distribution, and behaviour and thereby aid conservation efforts.
@@ -27,19 +23,26 @@ The PanAf-500 was ground-truth labelled by users on the citizens science platfor
 
 ---
 
-### **Benchmarks**
-
----
-
 ### **Citation**
 
 ```BibTeX
- @article{brookes2023panaf20k,
+ @article{brookes2024panaf20k,
   title={PanAf20K: A Large Video Dataset for Wild Ape Detection & Behaviour Analysis},
   author={Brookes, Otto and Mirmehdi, Majid and Stephens, Colleen and McCarthy, Maureen and Murai, Mizuki and Normand, Emmanuelle and Vergnes, Virginie and Meier, Amelia and Lapuente, Juan and Wittig, Roman and Dowd, Dervla and Jones, Sorrel and Leinert, Vera and Wessling, Erin and Corogenes, Katherine and  Zuberb{\"u}hler, Klaus and Lee, Kevin and  Angedakin, Samuel and  Langergraber, Kevin and Dieguez, Paula and Maldonado, Nuria and Boesch, Christophe and Arandjelovic, Mimi and K{\"u}hl, Hjalmar and Burghardt, Tilo},
   title={Editorial for Special Issue on Computer Vision Approaches for Animal Tracking and Modeling},
-  journal={International Journal of Computer Vision},
-  year={2023}
+  journal={International Journal of Computer Vision (IJCV)},
+  year={2024},
+  doi={10.1007/s11263-024-02003-z}
+  url={https://doi.org/10.1007/s11263-024-02003-z}
+}
+
+ @misc{brookes2024panaf20kdataset,
+  title={PanAf20K AI-enabled Video Dataset of Great Apes in the Wild},
+  author={Brookes, Otto and Mirmehdi, Majid and Stephens, Colleen and McCarthy, Maureen and Murai, Mizuki and Normand, Emmanuelle and Vergnes, Virginie and Meier, Amelia and Lapuente, Juan and Wittig, Roman and Dowd, Dervla and Jones, Sorrel and Leinert, Vera and Wessling, Erin and Corogenes, Katherine and  Zuberb{\"u}hler, Klaus and Lee, Kevin and  Angedakin, Samuel and  Langergraber, Kevin and Dieguez, Paula and Maldonado, Nuria and Boesch, Christophe and Arandjelovic, Mimi and K{\"u}hl, Hjalmar and Burghardt, Tilo},
+  title={Editorial for Special Issue on Computer Vision Approaches for Animal Tracking and Modeling},
+  year={2024},
+  doi={10.5523/bris.1h73erszj3ckn2qjwm4sqmr2wt}
+  url={https://doi.org/10.5523/bris.1h73erszj3ckn2qjwm4sqmr2wt}
 }
  ```
 ---
